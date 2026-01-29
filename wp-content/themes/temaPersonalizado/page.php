@@ -14,11 +14,6 @@
                   <header>
                      <h2><?php the_content(); ?></h2>
                   </header>
-                    <?php
-                    if (has_post_thumbnail()) {
-                           the_post_thumbnail('category-square');
-                    }
-                    ?>   
                </article>
                   </a>
                     <?php

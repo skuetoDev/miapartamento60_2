@@ -51,7 +51,7 @@ class ImportManager {
         return apply_filters( 'hostinger_reach_import_enabled', false, $integration );
     }
 
-    public function get_contacts( string $integration, ?int $form_id = null, ?int $limit = 100, ?int $offset = 0 ): array {
+    public function get_contacts( string $integration, mixed $form_id = null, ?int $limit = 100, ?int $offset = 0 ): array {
         return apply_filters( 'hostinger_reach_contacts_' . $integration, $form_id, $limit, $offset );
     }
 

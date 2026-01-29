@@ -203,7 +203,7 @@ abstract class Integration {
         return true;
     }
 
-    public function get_contacts( ?int $form_id = null, ?int $limit = 100, ?int $offset = 0 ): array {
+    public function get_contacts( mixed $form_id = null, ?int $limit = 100, ?int $offset = 0 ): array {
         return array();
     }
 

@@ -207,7 +207,7 @@ class NinjaFormsIntegration extends Integration implements IntegrationInterface 
     }
 
 
-    public function get_contacts( ?int $form_id = null, ?int $limit = 100, ?int $offset = 0 ): array {
+    public function get_contacts( mixed $form_id = null, ?int $limit = 100, ?int $offset = 0 ): array {
         $entries = $this->get_form_emails( $form_id, $limit, $offset );
         $form    = $this->get_form( $form_id );
 
@@ -235,7 +235,7 @@ class NinjaFormsIntegration extends Integration implements IntegrationInterface 
         return $entries;
     }
 
-    private function get_form_emails( int $form_id = null, int $limit = 0, int $offset = 0 ): array {
+    private function get_form_emails( mixed $form_id = null, ?int $limit = 0, ?int $offset = 0 ): array {
         $emails = array();
 
         if ( ! function_exists( 'Ninja_Forms' ) || ! $form_id ) {

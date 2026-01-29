@@ -6,7 +6,7 @@ import PluginExpansion from '@/components/PluginExpansion.vue';
 import SyncStatusLabel from '@/components/SyncStatusLabel.vue';
 import { useModal } from '@/composables';
 import { type PluginStatus } from '@/data/pluginData';
-import { ModalName } from '@/types';
+import { IMPORT_STATUSES, ModalName } from '@/types';
 import type { Form, Integration } from '@/types/models';
 import { translate } from '@/utils/translate';
 
@@ -115,7 +115,10 @@ const expandButtonAriaLabel = computed(() => {
 				<span class="plugin-entry-row__mobile-label">
 					{{ translate('hostinger_reach_plugin_entries_table_status_header') }}:
 				</span>
-				<SyncStatusLabel :enabled="props.integration.importEnabled" :status="props.integration.importStatus.status" />
+				<SyncStatusLabel
+					:enabled="props.integration.importEnabled"
+					:status="activeForms.length <= 0 ? IMPORT_STATUSES.OFF : props.integration.importStatus.status"
+				/>
 			</div>
 			<div class="plugin-entry-row__cell plugin-entry-row__cell--actions">
 				<HPopover

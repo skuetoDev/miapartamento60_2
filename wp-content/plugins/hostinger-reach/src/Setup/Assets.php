@@ -170,6 +170,7 @@ class Assets {
             'hostinger_reach_contacts_info'                           => __( 'are ready to sync with Reach. Any new contacts you’ll collect with these forms will sync automatically.', 'hostinger-reach' ),
             'hostinger_reach_contacts_none_selected'                  => __( 'You have not selected any forms to sync. Select which forms you want to sync and then click on the Sync button below.', 'hostinger-reach' ),
             'hostinger_reach_contacts_not_available'                  => __( '-', 'hostinger-reach' ),
+            'hostinger_reach_contacts_off'                            => __( 'Auto-sync off', 'hostinger-reach' ),
             'hostinger_reach_contacts_partially_imported'             => __( 'Partially synced', 'hostinger-reach' ),
             'hostinger_reach_contacts_imported'                       => __( 'Synced', 'hostinger-reach' ),
             'hostinger_reach_contacts_not_imported'                   => __( 'Not synced', 'hostinger-reach' ),

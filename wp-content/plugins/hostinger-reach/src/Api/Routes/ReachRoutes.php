@@ -128,7 +128,7 @@ class ReachRoutes extends Routes {
                 array(
                     'methods'             => 'GET',
                     'callback'            => array( $this->handler, 'get_tags_handler' ),
-                    'permission_callback' => '__return_true',
+                    'permission_callback' => array( $this, 'permission_check' ),
                 ),
                 array(
                     'methods'             => 'POST',

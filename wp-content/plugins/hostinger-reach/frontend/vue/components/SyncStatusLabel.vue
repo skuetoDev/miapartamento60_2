@@ -28,7 +28,11 @@ const getStatusIcon = computed((): StatusIcon => {
 
 <template>
 	<span class="status-content" :data-status="props.status" :data-availabe="props.enabled">
-		<HIcon v-if="props.enabled" :name="getStatusIcon.icon" :color="getStatusIcon.color" />
+		<HIcon
+			v-if="props.enabled && props.status !== IMPORT_STATUSES.OFF"
+			:name="getStatusIcon.icon"
+			:color="getStatusIcon.color"
+		/>
 		{{
 			props.enabled
 				? translate(`hostinger_reach_contacts_${props.status}`)

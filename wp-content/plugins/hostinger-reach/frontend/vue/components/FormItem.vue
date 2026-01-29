@@ -53,7 +53,11 @@ const hasActions = computed(() => !props.integration.isViewFormHidden || !props.
 			</span>
 			<Toggle
 				:value="props.form.isActive"
-				:is-disabled="!props.integration.canToggleForms || form.isLoading"
+				:is-disabled="
+					!props.integration.canToggleForms ||
+					form.isLoading ||
+					form.formId?.startsWith('elementor-hostinger-reach-form')
+				"
 				@toggle="(status) => emit('toggleStatus', props.form, status)"
 			/>
 		</div>
@@ -64,7 +68,11 @@ const hasActions = computed(() => !props.integration.isViewFormHidden || !props.
 			<span class="form-item__status-label">
 				<SyncStatusLabel
 					:enabled="supportsIntegration"
-					:status="props.integration.importStatus?.summary[form.formId]?.status ?? IMPORT_STATUSES.NOT_IMPORTED"
+					:status="
+						!props.form.isActive
+							? IMPORT_STATUSES.OFF
+							: (props.integration.importStatus?.summary[form.formId]?.status ?? IMPORT_STATUSES.NOT_IMPORTED)
+					"
 				/>
 			</span>
 		</div>

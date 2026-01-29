@@ -93,7 +93,7 @@ class ForminatorIntegration extends Integration implements IntegrationInterface 
         return $summary;
     }
 
-    public function get_contacts( ?int $form_id = null, ?int $limit = 100, ?int $offset = 0 ): array {
+    public function get_contacts( mixed $form_id = null, ?int $limit = 100, ?int $offset = 0 ): array {
         if ( ! class_exists( 'Forminator_Form_Entry_Model' ) ) {
             return array();
         }

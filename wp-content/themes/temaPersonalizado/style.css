@@ -1323,6 +1323,7 @@ p .post-content {
 	.row.gtr-200.gtr-uniform > * {
 		padding-top: 80px;
 	}
+
 }
 
 @media screen and (max-width: 736px) {
@@ -2278,6 +2279,7 @@ ul.social li a.icon-twitch:hover::after {
 .icon {
 	position: relative;
 	text-decoration: none;
+	left:-40px;
 }
 
 .icon:before {
@@ -2356,6 +2358,7 @@ ul.social li a.icon-twitch:hover::after {
 	background-position: 10% 55%;
 	overflow:visible;
 	z-index: 10;
+	max-height: 11em;
 	
 }
 .logo{
@@ -2584,12 +2587,12 @@ ul.social li a.icon-twitch:hover::after {
 
 #main {
 	position: relative;
-	padding: 4em 0 4em 0;
+	padding: 13em 0 4em 0;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	background-color: #f2f7f3;
+	background-color: #F2F6F7;
 }
 p iframe {
 	display: block;
@@ -2840,6 +2843,7 @@ header {
 
 	#header {
 		padding: 1em 0 2em 0;
+		
 	}
 
 	/* Banner */
@@ -2870,7 +2874,7 @@ header {
 	/* Main */
 
 	#main {
-		padding: 30px 0;
+		padding: 14em 0;
 	}
 
 	/* Footer */
@@ -2904,34 +2908,43 @@ header {
 #titleBar {
 	display: none;
 }
+@media screen and (max-width: 1050px) {
+	.icon{
+		display:none;
+
+	}
+	
+}
 
 @media screen and (max-width: 980px) {
 	/* Basic */
-
 	html,
 	body {
 		overflow-x: hidden;
 	}
-
+	
 	/* Box */
-
+	
 	.box footer ul.actions li {
 		margin: 1em 0 0 0;
 		display: block;
 	}
-
+	
 	.box footer ul.actions li .button {
 		width: 100%;
 	}
-
+	
 	.box footer ul.actions li:first-child {
 		margin-top: 0;
 	}
-
+	
 	/* Header */
-
+	
 	#header {
 		padding: 1em 0 1em 0;
+	}
+	#header h1 {
+		font-size: 4em;
 	}
 
 	/* Nav */
@@ -2974,7 +2987,7 @@ header {
 	/* Main */
 
 	#main {
-		padding: 40px 0;
+		padding: 9.5em 0;
 	}
 
 	/* Copyright */
@@ -3344,7 +3357,7 @@ header {
 	/* Main */
 
 	#main {
-		padding: 20px 0;
+		padding: 5em 0;
 	}
 
 	/* Footer */

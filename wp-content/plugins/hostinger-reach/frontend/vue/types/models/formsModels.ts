@@ -58,6 +58,7 @@ export interface FormsFilter {
 }
 
 export const IMPORT_STATUSES = {
+	OFF: "off",
 	PARTIALLY_IMPORTED: "partially_imported",
 	NOT_IMPORTED: "not_imported",
 	IMPORTING: "importing",
