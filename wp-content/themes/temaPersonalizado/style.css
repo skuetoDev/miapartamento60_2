@@ -359,6 +359,7 @@ p .post-content {
 	flex-wrap: wrap;
 	box-sizing: border-box;
 	align-items: stretch;
+	justify-content: end;
 }
 
 .row > * {
@@ -1931,7 +1932,7 @@ img {
 
 ul {
 	list-style: disc;
-	padding-left: 1em;
+
 }
 
 ul li {
@@ -2147,23 +2148,18 @@ ul.divided li:first-child {
 
 ul.social {
 	list-style: none;
-	padding-left: 0;
-	overflow: hidden;
+	
 	cursor: default;
-	margin: 0 0 3.25em 0;
+	
 }
 
 ul.social li {
 	display: inline-block;
 	padding-left: 0;
-	margin-left: 0.75em;
+	margin-left: 2.5em;
 }
 
-ul.social li:first-child {
-	margin-left: 0;
-	width: 3.2em;
-	height: 3.2em;
-}
+
 
 ul.social li a {
 	display: inline-block;
@@ -2279,7 +2275,7 @@ ul.social li a.icon-twitch:hover::after {
 .icon {
 	position: relative;
 	text-decoration: none;
-	left:-40px;
+	
 }
 
 .icon:before {
@@ -2630,13 +2626,11 @@ p iframe {
 
 #footer {
 	position: relative;
-	color: #27c2c1;
+	color: #F2F6F7;
 	padding: 1em;
 	padding-top: 4em;
-	background-color: #182519;
-
+	background-color: #0288D1;
 	display: flex;
-	justify-content: end;
 }
 
 #footer:before {
@@ -2651,10 +2645,10 @@ p iframe {
 }
 
 #footer a {
-	color: #27c2c1;
+	color: #F2F6F7;
 }
 #footer a:hover {
-	color: #fca04d;
+	color: #B3E5FC;
 }
 
 #footer h2,
@@ -2664,7 +2658,7 @@ p iframe {
 #footer h6,
 #footer strong,
 #footer b {
-	color: #2c76e0;
+	color: #F2F6F7;
 }
 
 #footer h2 a,
@@ -2683,9 +2677,16 @@ header {
 
 #footer header h2 {
 	font-size: 1.75em;
+	text-align:justify;
 }
 .social-media-section h2 {
 	text-align: left;
+}
+.social-media-section{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 /* Copyright */
