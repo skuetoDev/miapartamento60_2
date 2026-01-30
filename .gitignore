@@ -14,8 +14,7 @@ Thumbs.db
 *.old
 .htaccess.old*
 
-# Configuración sensible
-wp-config.php
+
 
 # Dependencias
 /vendor/
