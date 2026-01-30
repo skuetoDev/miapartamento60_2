@@ -1,0 +1,22 @@
+# Logs
+*.log
+wp-content/debug.log
+
+# WordPress core (si no quieres versionarlo)
+wp-admin/
+wp-includes/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.old
+.htaccess.old*
+
+# Configuración sensible
+wp-config.php
+
+# Dependencias
+/vendor/
+node_modules/
