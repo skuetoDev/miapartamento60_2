@@ -36,7 +36,7 @@
 		// Title Bar.
 			$(
 				'<div id="titleBar">' +
-					'<a href="#navPanel" class="toggle"></a>' +
+					'<a href="#navPanel" class="toggle"> </a>' +
 				'</div>'
 			)
 				.appendTo($body);
@@ -60,6 +60,8 @@
 					target: $body,
 					visibleClass: 'navPanel-visible'
 				});
-	
+
+		// Mover el header fuera del page-wrapper para que funcione correctamente con position fixed
+		$('#header').insertBefore('#page-wrapper');
 
 })(jQuery);

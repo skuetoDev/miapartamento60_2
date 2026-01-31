@@ -16,7 +16,7 @@ Thumbs.db
 #Archivos subidos a WordPress
 wp-content/uploads/
 #archivo de configuracion de wp-config.php
-
+wp-config.php
 
 
 # Dependencias
