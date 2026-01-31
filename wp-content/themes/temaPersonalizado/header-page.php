@@ -17,7 +17,7 @@
          <!-- Header -->
          <section id="header">
             <div class="logo">
-               <img class="icon" src="wp-content\uploads\2026\01\logo-150x150.png" alt="Logo-miapartamento60"/>
+               <img class="icon" src="/wp-content/themes/temaPersonalizado/assets/images/logo.svg" alt="Logo-miapartamento60"/>
 
             </div>
             <!-- Logo -->
