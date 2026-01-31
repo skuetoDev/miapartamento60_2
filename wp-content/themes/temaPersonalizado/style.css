@@ -224,10 +224,7 @@ b {
 	font-weight: 700;
 }
 
-i,
-em {
-	font-style: italic;
-}
+
 
 sub {
 	position: relative;
@@ -244,7 +241,7 @@ sup {
 blockquote {
 	border-left: solid 0.75em #dddddd;
 	padding: 1em 0 1em 1.5em;
-	font-style: italic;
+	
 }
 
 h1,
@@ -1674,12 +1671,7 @@ article {
 	margin-bottom: 2.5em;
 }
 
-section > :last-child,
-section:last-child,
-article > :last-child,
-article:last-child {
-	margin-bottom: 0;
-}
+
 
 header {
 	margin: 0 0 1.5em 0;
@@ -2156,7 +2148,9 @@ ul.divided li:first-child {
 
 ul.social {
 	list-style: none;
-	
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	cursor: default;
 	
 }
@@ -2176,6 +2170,9 @@ ul.social li a {
 	text-align: center;
 	border-radius: 5px;
 	background: #888;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	-moz-transition: background-color 0.25s ease-in-out;
 	-webkit-transition: background-color 0.25s ease-in-out;
 	-ms-transition: background-color 0.25s ease-in-out;
@@ -2189,17 +2186,23 @@ ul.social li a:before {
 }
 
 ul.social li a.fa-facebook {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background: #0866ff;
-	
+	background: #043d99;
 	transition: all 0.5s ease-in-out;
 }
-
-ul.social li a.fa-facebook:hover {
-	background: #043d99;
+ul.social li a.fa-airbnb {
+	background: #F2F6F7;
+	transition: all 0.5s ease-in-out;
 }
+ul.social li a.fa-booking {
+	background: #003B95;
+	transition: all 0.5s ease-in-out;
+}
+ul.social li a.fa-booking img{
+	width: 2em;
+	height: 2em;
+
+}
+
 
 ul.social li a.fa-instagram {
 	background-image: linear-gradient(45deg, #fdf497, #fd5949, #d6249f, #285aeb);
@@ -2450,21 +2453,21 @@ ul.social li a.icon-twitch:hover::after {
 
 .dropotron {
 	border-radius: 5px;
-	background-color: #252122;
-	background-color: rgba(34, 30, 31, 0.98);
+	background-color: #0288D1;
+	background-color: rgba(2, 136, 209, 0.98);
 	padding: 1.25em 1.5em 1.25em 1.5em;
-	font-style: italic;
 	min-width: 13em;
-	box-shadow: 10px 8px 15px 0px rgba(143, 225, 193, 0.98);
+	box-shadow: 10px 8px 15px 0px rgba(0, 0, 0, 0.28);
 	text-align: left;
 	margin-top: -1.25em;
 	margin-left: -1px;
 	list-style: none;
+	transition: background-color 0.25s ease-in-out;
 }
 
 .dropotron a,
 .dropotron span {
-	color: #8fe1c1;
+	color: #222323;
 	text-decoration: none;
 	-moz-transition: color 0.25s ease-in-out;
 	-webkit-transition: color 0.25s ease-in-out;
@@ -2476,9 +2479,10 @@ ul.social li a.icon-twitch:hover::after {
 	padding: 0.25em 0 0.25em 0;
 }
 
+
 .dropotron li:hover > a,
 .dropotron li:hover > span {
-	color: #0288D1;
+	color: #00A8EC;
 }
 
 .dropotron.level-0 {
@@ -2494,8 +2498,18 @@ ul.social li a.icon-twitch:hover::after {
 	top: -9px;
 	border-left: solid 10px transparent;
 	border-right: solid 10px transparent;
-	border-bottom: solid 10px #252122;
-	border-bottom-color: rgba(34, 30, 31, 0.98);
+	border-bottom: solid 10px #0288D1;
+	border-bottom-color: rgba(2, 136, 209, 0.98);
+	transition: border-bottom-color 0.25s ease-in-out;
+}
+
+/* Hover en el dropdown completo */
+.dropotron:hover {
+	background-color: #B3E5FC;
+}
+
+.dropotron.level-0:hover:before {
+	border-bottom-color: #B3E5FC;
 }
 
 /* Banner */
@@ -2596,7 +2610,7 @@ ul.social li a.icon-twitch:hover::after {
 
 #main {
 	position: relative;
-	padding: 13em 0 4em 0;
+	padding: 13em 0 0 0;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -2701,6 +2715,7 @@ header {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	margin: 1.5em 0 1.5em 0;
 }
 
 /* Copyright */
@@ -2893,7 +2908,7 @@ header {
 	/* Footer */
 
 	#footer {
-		padding: 3em 0;
+		padding: 1em 0 2em 0;
 	}
 
 	#footer:before {
@@ -2978,6 +2993,9 @@ header {
 
 	#intro {
 		padding: 3em 0 0 0;
+	}
+	#main{
+		padding: 8em 0 0 0;
 	}
 
 	#intro section {
@@ -3375,7 +3393,7 @@ header {
 
 	#header {
 		text-align: center;
-		padding: 1em 0;
+		padding: 2em 0;
 	}
 
 	#header h1 {
@@ -3425,7 +3443,7 @@ header {
 	/* Main */
 
 	#main {
-		padding: 5em 0;
+		padding: 8em 0 2em 0;
 	}
 
 	/* Footer */
