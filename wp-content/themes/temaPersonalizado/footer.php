@@ -33,8 +33,7 @@
                   </li>
                   <li>
                      <a class="icon fa-booking" 
-                        href="https://www.booking.com/hotel/es/mi-apartamento-60.es.html
-                        ?chal_t=1769858634850&force_referer=https%3A%2F%2Fwww.google.com%2F" 
+                        href="https://www.booking.com/hotel/es/mi-apartamento-60.es.html" 
                         target="_blank"
                         >
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/bookingdotcom_.svg" alt="Icono-Booking" />
