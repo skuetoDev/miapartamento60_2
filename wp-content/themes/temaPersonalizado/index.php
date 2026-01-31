@@ -22,6 +22,9 @@
 
                      if (!empty($categories)) :
                          foreach ($categories as $category) :
+                           if ($category->term_id == 1) continue; // Omitir categoría "Sin categoría"
+                              ?>
+                             <?php
                         // Obtener la última entrada de esa categoría (opcional)
                              $latest_post = new WP_Query(array(
                              'posts_per_page' => 1,
