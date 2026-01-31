@@ -14,9 +14,6 @@
                   <h1><?php the_title(); ?></h1>
                     <?php the_content(); ?>                   
                   <h3><?php the_time('j F , Y'); ?></h3>
-                  <footer class="comentarios">
-                        <?php comments_template(); ?>
-                    </footer>
                </article>
                     <?php
                 endwhile;
