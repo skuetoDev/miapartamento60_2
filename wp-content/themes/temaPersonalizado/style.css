@@ -3510,6 +3510,7 @@ header {
 	.container {
 		width: calc(100% - 40px);
 		padding: 0 10px;
+		margin-bottom: 30px;
 	}
 
 	.box {
@@ -3523,6 +3524,12 @@ header {
 
 	.box.post p {
 		width: 100%;
+
+	}
+	.box.post p img{
+		max-width: 90%;
+		
+		
 	}
 
 	.post-content {
