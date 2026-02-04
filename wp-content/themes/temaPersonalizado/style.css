@@ -3528,8 +3528,7 @@ header {
 	}
 	.box.post p img{
 		max-width: 90%;
-		
-		
+		object-fit: contain;
 	}
 
 	.post-content {
