@@ -1,6 +1,6 @@
 
 <section id="footer">
-   <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.svg" class="logo-transparent" alt="Logo-miapartamento60"/>
+   <img class ="logo palm" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/palm.svg" alt="logo palm" />
    <div class="container">
       <div class="row">
          <div class="col-4 col-12-medium">
@@ -53,10 +53,11 @@
                   <li>Developed by  <a href='https://www.linkedin.com/in/skuetoDev/' target="_blank">
                      SkuetoDev</a> 
                   </li>
-                  <li></a>&copy;2026 
+                  <li>&copy;2026 
                      <a href='mailto:miapartamento60@gmail.com' target="_blank">
                      MiApartamento60
-                     </a>All rights reserved.</li>
+                     </a>All rights reserved.
+                  </li>
                </ul>
             </div>
          </div>
