@@ -1755,6 +1755,15 @@ footer {
 .post-content {
 	padding: 2em;
 }
+.box.post h2{
+	margin-bottom: 1.5em ;
+}
+.box.post:first-child h2{
+	margin-top: 0;
+}
+.box.post p img{
+	margin: 1.5em 0 ;
+}
 
 .box.post header > p {
 	margin-top: 1.25em;
@@ -1762,6 +1771,7 @@ footer {
 }
 .box p {
 	margin: 0;
+	margin-bottom: 1em;
 }
 
 .box footer ul.actions {
@@ -3363,9 +3373,8 @@ header {
 	.box.post h2 {
 		font-size: 1.5em;
 		line-height: 1.5em;
-		margin-bottom: 1.5em;
 	}
-
+	
 	.box.post header > p {
 		margin-top: 0;
 		font-size: 1em;
@@ -3377,9 +3386,8 @@ header {
 		max-width: 90%;
 		object-fit: contain;
 		vertical-align: bottom;
-		margin-bottom: 1em;
 	}
-
+	
 	/* Divided */
 
 	ul.divided li {
