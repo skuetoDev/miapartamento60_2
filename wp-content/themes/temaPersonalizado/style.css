@@ -3372,6 +3372,10 @@ header {
 	.box.post p {
 		width: 85%;
 	}
+	.box.post p img{
+		max-width: 90%;
+		object-fit: contain;
+	}
 
 	/* Divided */
 
@@ -3525,10 +3529,6 @@ header {
 	.box.post p {
 		width: 100%;
 
-	}
-	.box.post p img{
-		max-width: 90%;
-		object-fit: contain;
 	}
 
 	.post-content {
