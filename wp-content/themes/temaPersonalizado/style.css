@@ -2651,12 +2651,12 @@ ul.social li a.icon-twitch:hover::after {
 
 /* Main */
 #main-wrapper {
-	padding-top:13em;
-	top:0;
+	padding-top:14em;
+	
 }
 #main {
 	position: relative;
-	padding: 13em 0 0 0;
+	padding: 14em 0 0 0;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -2961,12 +2961,6 @@ header {
 		right: -12px;
 	}
 
-	/* Main */
-
-	#main-wrapper {
-		padding-top: 12em;
-	}
-
 	/* Footer */
 
 	#footer {
@@ -3060,7 +3054,7 @@ header {
 		padding: 3em 0 0 0;
 	}
 	#main{
-		padding: 8em 0 0 0;
+		padding: 6em 0 0 0;
 	}
 
 	#intro section {
