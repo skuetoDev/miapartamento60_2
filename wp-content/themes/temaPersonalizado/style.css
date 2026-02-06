@@ -3392,12 +3392,11 @@ header {
 	}
 	.box.post p {
 		width: 85%;
+		display:flex;
+		justify-content: center;
+		align-items: center;
 	}
-	.box.post p img{
-		max-width: 90%;
-		object-fit: contain;
-		vertical-align: bottom;
-	}
+	
 	
 	/* Divided */
 
