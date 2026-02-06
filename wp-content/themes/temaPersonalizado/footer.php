@@ -1,6 +1,8 @@
 
 <section id="footer">
-   <img class ="logo palm" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo/palm.svg" alt="logo palm" />
+   <div class="background-image">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/footer-background2.svg" alt="background footer"/>
+   </div>
    <div class="container">
       <div class="row">
          <div class="col-4 col-12-medium">
@@ -63,8 +65,8 @@
          </div>
       </div>
    </div>
-</section>
 </div>
+</section>
 <!-- para importar funciones desde functions.php -->
 <?php wp_footer(); ?>
 

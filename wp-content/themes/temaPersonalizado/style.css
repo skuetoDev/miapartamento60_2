@@ -2636,7 +2636,7 @@ ul.social li a.icon-twitch:hover::after {
 
 /* Main */
 #main-wrapper {
-	padding-top:12em;
+	padding-top:8em;
 }
 #main {
 	position: relative;
@@ -2703,16 +2703,26 @@ p iframe {
 	background-size: 100% 100%;
 	z-index: 0;
 	opacity: 0.5;
+
+}
+#footer .background-image {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+	opacity: 0.1;
+	pointer-events: none;
+}
+#footer .background-image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 0;
 	
 }
-#footer .palm{
-	top: 10%;
-	left: 0%;
-	width: 20em;
-	opacity: 0.2;
-	position:absolute;
-	z-index: 0;
-}
+
 
 #footer .container {
 	position: relative;
@@ -2976,6 +2986,7 @@ header {
 	#copyright {
 		margin: 0;
 	}
+	
 }
 
 /* Medium */
