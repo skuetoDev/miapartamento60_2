@@ -8,7 +8,7 @@
                <!-- Portfolio -->
                   <section>
                         <header class="major">
-                           <h2>
+                           <h1>
                               <?php
                                 if (is_category()) {
                                     single_cat_title();
@@ -16,7 +16,7 @@
                                     echo wp_get_document_title();
                                 }
                                 ?>
-                           </h2>
+                           </h1>
                         </header>
                         <div class="row">
                         <?php $id_categoria = get_query_var('cat');?>

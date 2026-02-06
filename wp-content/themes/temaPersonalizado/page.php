@@ -11,9 +11,11 @@
                      the_post();
                     ?>
                <article class="box post">
-                  <header>
-                     <h2><?php the_content(); ?></h2>
+                  <header class="post-header">
+                     <h1><?php the_title(); ?></h1>
                   </header>
+                  <p class="post-content">
+                     <?php the_content(); ?>
                </article>
                   </a>
                     <?php

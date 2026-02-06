@@ -1702,7 +1702,7 @@ header.major {
 	margin-top: 3em;
 }
 
-header.major h2 {
+header.major h1 {
 	background: #fff;
 	position: relative;
 	top: -0.65em;
@@ -1711,6 +1711,7 @@ header.major h2 {
 	border-radius: 0.5em;
 	padding: 0.6em 1.2em;
 	color: #2c76e0;
+	font-size:1.5em
 }
 
 footer {
@@ -1740,17 +1741,25 @@ footer {
 }
 
 .box.post header {
-	padding-top: 1em;
-	margin: 0 0 2em 0;
+	position: relative;
+	text-align: center;
+	border-top: solid 1px #2c76e0;
+	top: 1em;
+	margin-top: 1em;
+
 }
 
 .box.post h1 {
-	font-size: 3em;
-	letter-spacing: -0.015em;
+	background: #fff;
+	position: relative;
+	top: -0.65em;
+	display: inline;
+	margin: 0;
+	border-radius: 0.5em;
+	padding: 0.6em 1.2em;
 	color: #2c76e0;
-	margin-bottom: 1.5em;
-	text-align: center;
-	line-height: 1em;
+	font-size:1.5em;
+	border: solid 1px #2c76e0;
 }
 .post-content {
 	padding: 2em;
@@ -2642,7 +2651,8 @@ ul.social li a.icon-twitch:hover::after {
 
 /* Main */
 #main-wrapper {
-	padding-top:11em;
+	padding-top:13em;
+	top:0;
 }
 #main {
 	position: relative;
@@ -2671,20 +2681,6 @@ p iframe {
 	opacity: 0.1;
 }
 
-/* margen para el slider de la pagina quien soy */
-
-#metaslider_176 {
-	margin-bottom: 1em;
-	margin: 0 auto;
-}
-#metalslider-id-176 {
-	margin: 0 auto;
-}
-.h1-about-me {
-	font-size: 3em;
-	margin-bottom: 0.5em;
-	color: #2c76e0;
-}
 
 /* Footer */
 
@@ -2967,7 +2963,9 @@ header {
 
 	/* Main */
 
-	
+	#main-wrapper {
+		padding-top: 12em;
+	}
 
 	/* Footer */
 
