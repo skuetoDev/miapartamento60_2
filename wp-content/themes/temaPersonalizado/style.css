@@ -1773,7 +1773,7 @@ footer {
 	margin: 0;
 	margin-bottom: 1em;
 }
-.box.post p:has(img.img) {
+.box.post p:has(img.imagen) {
 	width: 100%;
 	display:flex;
 	justify-content: center;
