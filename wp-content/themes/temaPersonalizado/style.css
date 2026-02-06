@@ -3008,7 +3008,7 @@ header {
 		overflow-x: hidden;
 	}
 	#main-wrapper{
-		padding-top: 6em;
+		padding-top: 8em;
 	}
 	/* Box */
 	
@@ -3054,7 +3054,7 @@ header {
 		padding: 3em 0 0 0;
 	}
 	#main{
-		padding: 6em 0 0 0;
+		padding: 8em 0 0 0;
 	}
 
 	#intro section {
@@ -3281,7 +3281,8 @@ header {
 	}
 
 	/* Main transition */
-	#main {
+	#main,
+	#main-wrapper {
 		-moz-backface-visibility: hidden;
 		-webkit-backface-visibility: hidden;
 		-ms-backface-visibility: hidden;
@@ -3292,7 +3293,8 @@ header {
 		transition: transform 0.5s ease;
 	}
 
-	body.navPanel-visible #main {
+	body.navPanel-visible #main,
+	body.navPanel-visible #main-wrapper {
 		-moz-transform: translateX(275px);
 		-webkit-transform: translateX(275px);
 		-ms-transform: translateX(275px);
@@ -3511,6 +3513,9 @@ header {
 	#main {
 		padding: 8em 0 2em 0;
 	}
+	#main-wrapper{
+		padding-top: 8em;
+	}
 
 	/* Footer */
 
@@ -3561,6 +3566,9 @@ header {
 
 	#main {
 		padding: 7em 0 1em 0;
+	}
+	#main-wrapper{
+		padding-top: 7em;
 	}
 
 	.row > * {
