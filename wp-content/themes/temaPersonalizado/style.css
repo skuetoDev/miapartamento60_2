@@ -1774,11 +1774,11 @@ footer {
 
 .box.post h1 {
 	position: relative;
-	top: -0.65em;
+
 	display: inline;
 	margin: 0;
 	border-radius: 0.5em;
-	padding: 1em;
+	padding-bottom: 0.5em;
 	color: #2c76e0;
 	font-size:2em;
 
@@ -3040,7 +3040,7 @@ header {
 		overflow-x: hidden;
 	}
 	#main-wrapper{
-		padding-top: 6em;
+		padding-top: 0;
 	}
 	/* Box */
 	
@@ -3359,7 +3359,7 @@ header {
 	h4,
 	h5,
 	h6 {
-		font-size: 1.25em;
+		font-size: 1.5em;
 	}
 
 	/* Button */
