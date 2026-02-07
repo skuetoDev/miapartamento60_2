@@ -5,7 +5,7 @@
     Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html <?php language_attributes(); ?>>
-      <head>
+      <head >
         <title><?php echo bloginfo('name'); ?></title>
         <meta charset="<?php bloginfo('charset'); ?>"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
