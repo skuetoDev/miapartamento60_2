@@ -3330,7 +3330,11 @@ header {
 		transform: translateX(275px);
 	}
 }
-
+@media screen and (max-width: 850px) {
+	.post-content {
+		max-width: 600px;
+	}
+}
 /* Small */
 
 @media screen and (max-width: 736px) {
