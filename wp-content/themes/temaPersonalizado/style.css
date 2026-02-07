@@ -3040,7 +3040,7 @@ header {
 		overflow-x: hidden;
 	}
 	#main-wrapper{
-		padding-top: 0;
+		padding-top: 10em;
 	}
 	/* Box */
 	
@@ -3559,7 +3559,7 @@ header {
 		padding: 8em 0 2em 0;
 	}
 	#main-wrapper{
-		padding-top: 2em;
+		padding-top: 8em;
 	}
 
 	/* Footer */
@@ -3607,6 +3607,9 @@ header {
 
 	#main {
 		padding: 7em 0 1em 0;
+	}
+	#main-wrapper {
+		padding-top: 7em;
 	}
 
 	.row > * {
