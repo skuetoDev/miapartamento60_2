@@ -335,7 +335,7 @@ table {
 .post-content {
 	margin: 1em 0;
 	width: 100%;
-	max-width: 700px;
+	max-width: 800px;
 	margin: 0 auto;
 	padding: 1.5em;
 	overflow: hidden;
@@ -1746,7 +1746,6 @@ footer {
 
 .box {
 	background: #fafcfa;
-	padding: 2.75em 1.75em 2.75em 1.75em;
 	padding: 25px 25px 25px 30px;
 	border-radius: 1em;
 	display: flex;
@@ -3084,7 +3083,7 @@ header {
 		padding: 3em 0 0 0;
 	}
 	#main{
-		padding: 8em 0 0 0;
+		padding: 10em 0 0 0;
 	}
 
 	#intro section {
