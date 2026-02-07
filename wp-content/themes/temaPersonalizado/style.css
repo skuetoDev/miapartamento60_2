@@ -224,7 +224,7 @@ p,
 	font-size: 14pt;
 	line-height: 1.75em;
 }
-/* Lightbox por encima de la navbar */
+
 .lg-backdrop,
 .lg-outer {
   z-index: 999999 !important;
@@ -332,14 +332,14 @@ dl,
 table {
 	margin-bottom: 1em;
 }
-p .post-content {
+.post-content {
 	margin: 1em 0;
-	  width: 100%;
-  max-width: 700px;
-  margin: 0 auto;
-  padding: 1.5em;
-  overflow: hidden;
-  box-sizing: border-box;
+	width: 100%;
+	max-width: 700px;
+	margin: 0 auto;
+	padding: 1.5em;
+	overflow: hidden;
+	box-sizing: border-box;
 }
 /* Que el slider respete el contenedor */
 .post-content .metaslider {
