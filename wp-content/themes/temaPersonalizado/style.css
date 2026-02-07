@@ -345,6 +345,7 @@ table {
 .post-content .metaslider {
   max-width: 100% !important;
   width: 100% !important;
+  margin:2em 0 2em 0;
 }
 .post-content .metaslider .flex-viewport {
   max-width: 100%;
