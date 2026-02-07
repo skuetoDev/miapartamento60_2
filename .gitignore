@@ -46,3 +46,9 @@ wp-content/plugins/ml-slider/
 wp-content/plugins/ml-slider-lightbox/
 wp-content/plugins/wp-mail-smtp/
 wp-content/plugins/wpforms-lite/
+
+# Elementor archivos autogenerados
+wp-content/plugins/elementor/assets/js/atomic-widgets-frontend-handler.js
+wp-content/plugins/elementor/assets/js/atomic-widgets-frontend-handler.min.js
+wp-content/plugins/elementor/assets/js/packages/
+wp-content/plugins/elementor/core/common/modules/connect/apps/feedback.php
