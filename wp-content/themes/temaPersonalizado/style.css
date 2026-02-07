@@ -2448,7 +2448,7 @@ ul.social li a.icon-twitch:hover::after {
 
 }
 
-#header h1 {
+#header a {
 	font-family: 'Urbanist', sans-serif;
 	color: #F2F6F7;
 	font-weight: 700;
@@ -2457,15 +2457,15 @@ ul.social li a.icon-twitch:hover::after {
 	letter-spacing: 1px;
 	text-shadow: 0 2px 8px rgba(0,0,0,0.55);
 }
-#header h1 span{
+#header a span{
 	color:#F2F6F7;
 	font-family: 'Advent Pro', sans-serif;
 	margin-left: 10px;
 }
-#header h1 a:hover{
+#header a a:hover{
 	color:#00A8EC
 }
-#header h1 a:hover span{
+#header a a:hover span{
 	color:#0288D1
 }
 #header h2 {
