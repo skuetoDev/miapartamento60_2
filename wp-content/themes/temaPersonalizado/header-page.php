@@ -21,7 +21,7 @@
 
             </div>
             <!-- Logo -->
-               <a href="<?php echo home_url(); ?>">
+               <a  class="title" href="<?php echo home_url(); ?>">
                   <span>Mi</span>Apartamento<span>60</span>
                </a>
                <!-- Nav -->
