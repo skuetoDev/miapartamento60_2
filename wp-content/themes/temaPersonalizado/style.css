@@ -3221,6 +3221,7 @@ header {
 		z-index: 10002;
 		background-color: #0288D1;
 		padding-left: 2em;
+		padding-top:2em;
 		box-shadow: inset -3px 0px 15px 7px rgba(0, 0, 0, 0.35);
 	}
 
