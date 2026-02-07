@@ -2456,6 +2456,7 @@ ul.social li a.icon-twitch:hover::after {
 	line-height: 1em;
 	letter-spacing: 1px;
 	text-shadow: 0 2px 8px rgba(0,0,0,0.55);
+	text-decoration: none;
 }
 #header .title span{
 	color:#F2F6F7;
