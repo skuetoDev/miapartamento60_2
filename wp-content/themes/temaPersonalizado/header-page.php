@@ -21,12 +21,9 @@
 
             </div>
             <!-- Logo -->
-            <h1>
                <a href="<?php echo home_url(); ?>">
                   <span>Mi</span>Apartamento<span>60</span>
                </a>
-            </h1>
-            <h2><?php echo bloginfo('description'); ?></h2>
                <!-- Nav -->
                <section id="nav">
                   <?php
