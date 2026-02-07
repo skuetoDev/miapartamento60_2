@@ -1774,13 +1774,13 @@ footer {
 
 .box.post h1 {
 	position: relative;
-
 	display: inline;
 	margin: 0;
 	border-radius: 0.5em;
-	padding-bottom: 0.5em;
+	padding-bottom: 1em;
 	color: #2c76e0;
 	font-size:2em;
+	text-align: center;
 
 }
 .post-content {
@@ -2719,7 +2719,7 @@ p iframe {
 	overflow: hidden;
 	color: #F2F6F7;
 	padding: 1em;
-	padding-top: 4em;
+	padding-top: 2em;
 	background-color: #0288D1;
 	display: flex;
 	min-height: 20em;
@@ -2996,7 +2996,7 @@ header {
 	/* Footer */
 
 	#footer {
-		padding: 1em 0 2em 0;
+		padding: 1em 0;
 	}
 
 	#footer:before {
