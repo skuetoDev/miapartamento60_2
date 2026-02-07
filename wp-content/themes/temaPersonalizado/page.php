@@ -1,10 +1,4 @@
-<?php
-if (get_the_title() === 'Contacto') {
-    get_header('page');
-} else {
-    get_header();
-}
-?>
+<?php get_header('page'); ?>
    <body class="no-sidebar is-preload">
       <!-- Main -->
       <section id="main">
