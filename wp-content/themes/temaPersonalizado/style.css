@@ -1774,7 +1774,7 @@ footer {
 
 .box.post h1 {
 	position: relative;
-	display: inline;
+	display: block;
 	margin: 0;
 	border-radius: 0.5em;
 	padding-bottom: 1em;
@@ -2952,7 +2952,7 @@ header {
 	}
 
 	#main-wrapper{
-		padding-top: 8em;
+		padding-top: 10em;
 	}
 
 	/* Social */
@@ -3040,7 +3040,7 @@ header {
 		overflow-x: hidden;
 	}
 	#main-wrapper{
-		padding-top: 10em;
+		padding-top: 12em;
 	}
 	/* Box */
 	
