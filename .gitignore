@@ -22,4 +22,27 @@ wp-config.php
 # Dependencias
 /vendor/
 node_modules/
-# Plugins
+
+# NUEVO: Archivos autogenerados por plugins
+llms.txt
+wp-content/languages/plugins/
+wp-content/litespeed/
+wp-content/plugins/elementor/assets/js/*.bundle.js
+wp-content/plugins/elementor/assets/js/*.bundle.min.js
+wp-content/plugins/elementor/assets/js/*.LICENSE.txt
+wp-content/plugins/elementor/migrations/
+wp-content/plugins/elementor/modules/atomic-widgets/
+wp-content/plugins/elementor/modules/components/
+wp-content/plugins/elementor/modules/feedback/
+wp-content/plugins/elementor/modules/promotions/
+wp-content/plugins/elementor/modules/usage/
+wp-content/plugins/elementor/modules/variables/
+wp-content/plugins/elementor/vendor/
+wp-content/plugins/hostinger-easy-onboarding/assets/css/*.min2.css
+wp-content/plugins/hostinger-easy-onboarding/tsconfig.json
+wp-content/plugins/hostinger-easy-onboarding/vendor/
+wp-content/plugins/hostinger-easy-onboarding/vite.config.*
+wp-content/plugins/ml-slider/
+wp-content/plugins/ml-slider-lightbox/
+wp-content/plugins/wp-mail-smtp/
+wp-content/plugins/wpforms-lite/
