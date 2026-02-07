@@ -1788,6 +1788,7 @@ footer {
 }
 .box.post h2{
 	margin-bottom: 1.5em ;
+	text-align: center;
 }
 .box.post:first-child h2{
 	margin-top: 0;
@@ -2675,7 +2676,7 @@ ul.social li a.icon-twitch:hover::after {
 
 /* Main */
 #main-wrapper {
-	padding-top:14em;
+	padding-top:12em;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -2950,7 +2951,9 @@ header {
 		font-size: 11pt;
 	}
 
-	/* Section/Article */
+	#main-wrapper{
+		padding-top: 8em;
+	}
 
 	/* Social */
 
@@ -3037,7 +3040,7 @@ header {
 		overflow-x: hidden;
 	}
 	#main-wrapper{
-		padding-top: 8em;
+		padding-top: 6em;
 	}
 	/* Box */
 	
@@ -3413,13 +3416,14 @@ header {
 		margin: -40px 0 40px -30px;
 	}
 
-	.box.post header {
+	.box.post h1{
 		padding-top: 0;
 		margin: 0;
+		text-align: center;
+
 	}
 
 	.box.post h2 {
-		font-size: 1em;
 		line-height: 1.5em;
 	}
 	
