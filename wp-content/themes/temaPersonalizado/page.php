@@ -1,4 +1,10 @@
-<?php get_header('page'); ?> 
+<?php
+if (get_the_title() === 'Contacto') {
+    get_header('page');
+} else {
+    get_header();
+}
+?>
    <body class="no-sidebar is-preload">
       <!-- Main -->
       <section id="main">
@@ -11,11 +17,6 @@
                      the_post();
                     ?>
                <article class="box post">
-                  <?php if (get_content == 'Contacto') : ?>
-                     <div class="post-content">
-                        <?php the_content(); ?>
-                     </div>
-                  <?php endif; ?>   
                   <?php if (get_the_content()) : ?>
                      <div class="post-content">
                         <?php the_content(); ?>
