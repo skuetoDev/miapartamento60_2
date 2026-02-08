@@ -397,8 +397,7 @@ table {
 		width: calc(100% - 140px);
 	}
 	.container:has(form),
-	.container:has(div.mapa),
-	{
+	.container:has(div.mapa){
 		max-width: 700px;
 	}
 	.post-content:has(form),
