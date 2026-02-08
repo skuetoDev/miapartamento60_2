@@ -341,6 +341,9 @@ table {
 	overflow: hidden;
 	box-sizing: border-box;
 }
+.post-content:has(form){
+	max-width:1000px;
+}
 /* Que el slider respete el contenedor */
 .post-content .metaslider {
   max-width: 100% !important;
