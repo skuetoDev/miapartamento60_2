@@ -371,6 +371,9 @@ table {
 	.container {
 		width: 70em;
 	}
+	.container:has(form) {
+		width: 90em;
+	}
 }
 
 @media screen and (max-width: 1280px) {
