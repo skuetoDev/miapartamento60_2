@@ -374,36 +374,28 @@ table {
 	.container {
 		width: 70em;
 	}
-	.container:has(form) {
-		width: 90em;
-	}
+	
 }
 
 @media screen and (max-width: 1280px) {
 	.container {
 		width: calc(100% - 120px);
 	}
-	.container:has(form) {
-		width: 80em;
-	}
+	
 }
 
 @media screen and (max-width: 980px) {
 	.container {
 		width: calc(100% - 160px);
 	}
-	.container:has(form) {
-		width: 70em;
-	}
+	
 }
 
 @media screen and (max-width: 736px) {
 	.container {
 		width: calc(100% - 160px);
 	}
-	.container:has(form) {
-		width: 60em;
-	}
+	
 }
 
 /* Row */
