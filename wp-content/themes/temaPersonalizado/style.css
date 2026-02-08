@@ -341,7 +341,8 @@ table {
 	overflow: hidden;
 	box-sizing: border-box;
 }
-.post-content:has(form){
+.post-content:has(form),
+.post-content:has(iframe.mapa) {
 	max-width:1000px;
 }
 /* Que el slider respete el contenedor */
@@ -380,10 +381,12 @@ table {
 	.container {
 		width: calc(100% - 120px);
 	}
-	.container:has(form){
+	.container:has(form),
+	.container:has(iframe.mapa){
 		max-width: 900px;
 	}
-	.post-content:has(form){
+	.post-content:has(form),
+	.post-content:has(iframe.mapa){
 		max-width:800px;
 	}
 	
@@ -393,10 +396,13 @@ table {
 	.container {
 		width: calc(100% - 140px);
 	}
-	.container:has(form){
+	.container:has(form),
+	.container:has(iframe.mapa),
+	{
 		max-width: 700px;
 	}
-	.post-content:has(form){
+	.post-content:has(form),
+	.post-content:has(iframe.mapa){
 		max-width:600px;
 	}
 }
