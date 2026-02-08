@@ -3449,9 +3449,7 @@ header {
 		margin-top: 0;
 		font-size: 1em;
 	}
-	.box.post p {
-		width: 85%;
-	}
+	
 	.box.post p img{
 		max-width: 100%;
 		object-fit: contain;
