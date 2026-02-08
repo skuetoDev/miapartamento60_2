@@ -381,23 +381,21 @@ table {
 		width: calc(100% - 120px);
 	}
 	.container:has(form) {
-			width: calc(100% - 180px);
+			width: calc(100% - 250px);
 	}
 	
 }
 
 @media screen and (max-width: 980px) {
 	.container {
-		width: calc(100% - 160px);
-	}
-	.container:has(form) {
-			width: calc(100% - 250px);
+		width: calc(100% - 350px);
 	}
 	
 }
 
 @media screen and (max-width: 736px) {
-	.container {
+	.container,
+	.container:has(form) {
 		width: calc(100% - 160px);
 	}
 	
