@@ -403,9 +403,8 @@ table {
 
 
 @media screen and (max-width: 736px) {
-	.container,
-	.container:has(form) {
-		width: calc(100% - 160px);
+	.container {
+		width: calc(100% - 150px);
 	}
 	
 }
