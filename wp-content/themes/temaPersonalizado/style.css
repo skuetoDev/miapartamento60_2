@@ -380,9 +380,9 @@ table {
 	.container {
 		width: calc(100% - 120px);
 	}
-	.container:has(form) {
-			width: calc(100% - 250px);
-	}
+	.post-content:has(form){
+	max-width:900px;
+}
 	
 }
 
@@ -390,7 +390,9 @@ table {
 	.container {
 		width: calc(100% - 350px);
 	}
-	
+	.post-content:has(form){
+	max-width:800px;
+}
 }
 
 @media screen and (max-width: 736px) {
