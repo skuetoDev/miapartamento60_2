@@ -342,7 +342,7 @@ table {
 	box-sizing: border-box;
 }
 .post-content:has(form),
-.post-content:has(iframe.mapa) {
+.post-content:has(div.mapa) {
 	max-width:1000px;
 }
 /* Que el slider respete el contenedor */
@@ -382,11 +382,11 @@ table {
 		width: calc(100% - 120px);
 	}
 	.container:has(form),
-	.container:has(iframe.mapa){
+	.container:has(div.mapa){
 		max-width: 900px;
 	}
 	.post-content:has(form),
-	.post-content:has(iframe.mapa){
+	.post-content:has(div.mapa){
 		max-width:800px;
 	}
 	
@@ -397,12 +397,12 @@ table {
 		width: calc(100% - 140px);
 	}
 	.container:has(form),
-	.container:has(iframe.mapa),
+	.container:has(div.mapa),
 	{
 		max-width: 700px;
 	}
 	.post-content:has(form),
-	.post-content:has(iframe.mapa){
+	.post-content:has(div.mapa){
 		max-width:600px;
 	}
 }
