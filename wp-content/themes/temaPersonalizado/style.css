@@ -342,8 +342,8 @@ table {
 	box-sizing: border-box;
 }
 .post-content:has(form),
-.post-content:has(div.mapa) {
-	max-width:1000px;
+.post-content:has(.elementor-widget.mapa) {
+	max-width:1200px;
 }
 /* Que el slider respete el contenedor */
 .post-content .metaslider {
@@ -382,14 +382,14 @@ table {
 		width: calc(100% - 120px);
 	}
 	.container:has(form),
-	.container:has(div.mapa){
+	.container:has(.elementor-widget.mapa){
 		max-width: 900px;
 	}
 	.post-content:has(form),
-	.post-content:has(div.mapa){
-		max-width:800px;
+	.post-content:has(.elementor-widget.mapa){
+		max-width:850px;
 	}
-	
+
 }
 
 @media screen and (max-width: 980px) {
@@ -397,11 +397,11 @@ table {
 		width: calc(100% - 140px);
 	}
 	.container:has(form),
-	.container:has(div.mapa){
+	.container:has(.elementor-widget.mapa){
 		max-width: 700px;
 	}
 	.post-content:has(form),
-	.post-content:has(div.mapa){
+	.post-content:has(.elementor-widget.mapa){
 		max-width:600px;
 	}
 }
@@ -2720,6 +2720,10 @@ ul.social li a.icon-twitch:hover::after {
 p iframe {
 	display: block;
 	margin: 0 auto;
+}
+.elementor-widget.mapa .elementor-custom-embed iframe {
+	width: 100% !important;
+	min-height: 400px;
 }
 
 #main:before {
