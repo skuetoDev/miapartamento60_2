@@ -297,13 +297,13 @@ h3 {
 
 a {
 	color: #0288D1;
-	text-decoration: underline;
+	text-decoration: underline !important ;
 	text-underline-offset: 3px;
-	font-weight:700;
+	
 }
 
 a:hover {
-	text-decoration: none;
+	text-decoration: none !important;
 	
 }
 
