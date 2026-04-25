@@ -17,6 +17,9 @@
                                 }
                                 ?>
                            </h1>
+                           <p>
+                              Aqui podras encontrar todas las categorias dentro de la Web.
+                           </p>
                         </header>
                         <div class="row">
                         <?php $id_categoria = get_query_var('cat');?>

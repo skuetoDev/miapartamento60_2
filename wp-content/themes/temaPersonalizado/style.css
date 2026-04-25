@@ -295,15 +295,16 @@ h3 {
 	margin-top: 1em;
 }
 
-a {
-	color: #2c76e0;
+.box-post a {
+	
 	text-decoration: underline;
 	text-underline-offset: 3px;
+	font-weight:700;
 }
 
-a:hover {
+.box-post a:hover {
 	text-decoration: none;
-	color: #B3E5FC;
+	
 }
 
 nav a{
@@ -1744,7 +1745,7 @@ header.major {
 	position: relative;
 	text-align: center;
 	border-top: solid 1px #2c76e0;
-	top: 1em;
+	top: 1.5em;
 	margin: 0 0 3em 0;
 	margin-top: 3em;
 }
@@ -1816,7 +1817,8 @@ footer {
 .box.post:first-child h2{
 	margin-top: 0;
 }
-.box.post p img{
+.box.post p img,
+.box.post p iframe{
 	margin: 1.5em 0 ;
 }
 
@@ -1984,6 +1986,7 @@ button.large,
 img {
 	border-radius: 0.5em;
 }
+
 
 .image img {
 	display: block;
