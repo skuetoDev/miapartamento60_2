@@ -3657,3 +3657,10 @@ header {
 		margin-left: -15px;
 	}
 }
+.img-404 {
+   width: 100%;
+   max-width: 400px;
+   height: auto;
+   display: block;
+   margin: 30px auto;
+}
