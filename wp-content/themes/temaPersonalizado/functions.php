@@ -123,3 +123,10 @@ add_action('wp_enqueue_scripts', 'mis_fuentes_css', 1);
 //     echo '<link rel="preload" href="' . $uri . '/assets/fonts/Urbanist-VariableFont_wght.woff2" as="font" type="font/woff2" crossorigin>' . "\n";
 // }
 // add_action('wp_head', 'mis_fuentes_preload', -9999);
+
+// eliminar estilos de bloques Gutenberg que no usas en un tema clásico
+add_action( 'wp_enqueue_scripts', function() {
+    wp_dequeue_style( 'wp-block-library' );
+    wp_dequeue_style( 'wp-block-library-theme' );
+    wp_dequeue_style( 'global-styles' );
+}, 100 );
