@@ -2,7 +2,7 @@
 
 <!-- Main -->
 <div id="main-wrapper">
-   <div class="container">
+   <div class="container" role="main">
       <div class="row">
             <div class="12u">
                <!-- Portfolio -->
@@ -18,7 +18,13 @@
                                 ?>
                            </h1>
                            <p>
-                              Aqui podras encontrar todas las categorias dentro de la Web.
+                              <?php
+                                if (is_category()) {
+                                    echo 'Aquí podrás encontrar todos los posts de la categoría <strong>' . single_cat_title('', false) . '</strong>.';
+                                } else {
+                                    echo 'Aquí podrás encontrar todos los posts de la web.';
+                                }
+                              ?>
                            </p>
                         </header>
                         <div class="row">
