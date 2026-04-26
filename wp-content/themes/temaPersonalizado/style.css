@@ -295,7 +295,7 @@ h3 {
 	margin-top: 1em;
 }
 
-a {
+.box.post a {
 	color:#182519;
 	text-decoration: underline;
 	text-decoration-color: #0288D1;
@@ -304,7 +304,7 @@ a {
 	
 }
 
-a:hover {
+.box.post a:hover {
 	text-decoration: none ;
 	
 }
@@ -1749,7 +1749,7 @@ header.major {
 	border-top: solid 1px #2c76e0;
 	top: 1.5em;
 	margin: 0 0 3em 0;
-	margin-top: 3em;
+	margin-top: 5em;
 }
 
 header.major h1 {
@@ -1827,6 +1827,9 @@ footer {
 .box.post header > p {
 	margin-top: 1.25em;
 	font-size: 1.25em;
+}
+.box.post p img{
+	border-radius: 0.5em;
 }
 .box p {
 	margin: 0;
