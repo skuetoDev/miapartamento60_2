@@ -3664,16 +3664,17 @@ header {
    display: block;
    margin: 30px auto;
 }
-/* reseñas */
-/* Contraste en tooltips de Trustindex */
-.ti-with-tooltip,
-.ti-with-tooltip span,
-.ti-inner,
+/* Trustindex - fix contraste "Leer más" y texto reseñas */
 .ti-read-more-active {
-   color: #333333 !important;
+   color: #444444 !important;
 }
 
-/* Si el fondo es claro */
-.ti-with-tooltip {
-   background-color: #ffffff !important;
+.ti-inner,
+.ti-inner * {
+   color: #444444 !important;
+}
+
+.ti-with-tooltip,
+.ti-with-tooltip * {
+   color: #444444 !important;
 }
