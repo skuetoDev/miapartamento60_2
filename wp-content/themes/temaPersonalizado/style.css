@@ -3666,15 +3666,15 @@ header {
 }
 /* Trustindex - fix contraste "Leer más" y texto reseñas */
 .ti-read-more-active {
-   color: #444444 !important;
+   color: #202020 !important;
 }
 
 .ti-inner,
 .ti-inner * {
-   color: #444444 !important;
+   color: #202020 !important;
 }
 
 .ti-with-tooltip,
 .ti-with-tooltip * {
-   color: #444444 !important;
+   color: #202020 !important;
 }
