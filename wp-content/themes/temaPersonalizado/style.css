@@ -302,8 +302,9 @@ h3 {
 	text-underline-offset: 3px;
 	font-weight: 700;
 	
-}.box.post a :has(img) {
-	border-radius: 0.5em;
+}
+.box.post a :has(img) {
+	display: inline-block;
 }
 
 .box.post a:hover {
