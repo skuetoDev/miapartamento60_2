@@ -296,8 +296,9 @@ h3 {
 }
 
 a {
+	color:#182519;
+	text-decoration: underline;
 	text-decoration-color: #0288D1;
-	text-decoration: underline ;
 	text-underline-offset: 3px;
 	font-weight: 700;
 	
