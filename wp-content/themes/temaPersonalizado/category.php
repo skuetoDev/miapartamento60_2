@@ -20,7 +20,7 @@
                            <p>
                               <?php
                                 if (is_category()) {
-                                    echo 'Aquí podrás encontrar todos los posts de la categoría <strong>' . single_cat_title('', false) . '</strong>.';
+                                    echo 'Aquí podrás encontrar todos los posts sobre  <strong>' . single_cat_title('', false) . '</strong>.';
                                 } else {
                                     echo 'Aquí podrás encontrar todos los posts de la web.';
                                 }
