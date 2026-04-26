@@ -303,8 +303,8 @@ h3 {
 	font-weight: 700;
 	
 }
-.box.post a :has(img) {
-	display: inline-block;
+.box.post a:has(img) {
+	border-radius: 0.5em;
 }
 
 .box.post a:hover {
